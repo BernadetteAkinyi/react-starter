@@ -114,8 +114,7 @@ react-starter/
 │   ├── api-contract.md
 │   ├── mock-api/            # Ready-to-run fake API
 │   └── starter/             # Optional StudySync scaffold
-├── .github/                 # Issue and pull request templates
-├── docs/ci.yml              # GitHub Actions workflow (copy to .github/workflows/)
+├── .github/                 # CI workflow, issue and pull request templates
 ├── package.json
 └── vite.config.js
 ```

@@ -25,8 +25,7 @@ or a self-paced course.
 - [ ] Add learners as collaborators, or have them fork it.
 - [ ] Protect `main`: require a pull request and one approval.
 - [ ] Enable Issues and Projects if you want a cohort board.
-- [ ] Enable CI: copy `docs/ci.yml` to `.github/workflows/ci.yml` (requires the
-      `workflow` token scope). Otherwise, run the three checks locally.
+- [ ] Confirm CI runs on pull requests (`.github/workflows/ci.yml`).
 - [ ] Create a cohort channel (Slack, Discord, WhatsApp).
 - [ ] Schedule a 90-minute weekly session and a 30-minute office hour.
 - [ ] Prepare a demo deployment (Vercel/Netlify) to show in Week 8.

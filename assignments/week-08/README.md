@@ -149,7 +149,7 @@ Four short paragraphs. Be honest.
 - [ ] A 3-minute demo video is linked.
 - [ ] A peer review is completed and linked.
 - [ ] `RETRO.md` is committed.
-- [ ] Lint, tests, and build pass on `main` (CI green if enabled).
+- [ ] CI is green on `main`.
 - [ ] No secrets, `node_modules`, or `dist` are committed.
 - [ ] Lint, tests, and build pass.
 

@@ -138,7 +138,7 @@ What will you learn or build next?
 - [ ] 5-minute demo is linked.
 - [ ] `RETRO.md` is committed.
 - [ ] Lint, tests, and build pass.
-- [ ] Lint, tests, and build pass (CI green if enabled).
+- [ ] CI is green.
 
 ---
 
