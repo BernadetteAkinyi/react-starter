@@ -4,8 +4,12 @@
  * Week 1: this is a presentational component. It knows how to *look*, not how
  * to change anything. Week 2 will pass in onToggle and onDelete callbacks.
  */
+
+
 export default function TaskItem({ task }) {
   return (
+
+
     <li className={`task ${task.completed ? 'is-done' : ''}`.trim()}>
       <input
         className="task-check"
