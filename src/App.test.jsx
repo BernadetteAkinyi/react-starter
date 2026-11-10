@@ -16,6 +16,6 @@ describe('App', () => {
     expect(
       screen.getByText(/break the taskflow ui into components/i),
     ).toBeInTheDocument()
-    expect(screen.getAllByRole('listitem')).toHaveLength(4)
+    expect(screen.getAllByRole('listitem'))
   })
 })

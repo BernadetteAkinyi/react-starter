@@ -375,7 +375,7 @@ button:disabled {
   font-size: 0.66rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .priority-high {
@@ -424,6 +424,67 @@ button:disabled {
   font-size: 0.78rem;
   line-height: 1.55;
   color: var(--muted);
+}
+
+/* Profile Card  -----------------------------------------------------------  */
+
+
+.avatar {
+  flex: 0 0 auto;
+  padding: 0.9rem 0.9rem;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: #8d3418;
+  font-size: 0.94rem;
+  font-weight: 900;
+
+}
+
+.profile-layout{
+  display:flex;
+  justify-content:space-between;
+  
+  
+}
+.profile {
+  display:flex;
+  flex-direction:column;
+  gap:0.5;
+
+}
+
+.profile-name{
+  margin:0.25;
+}
+.profile-role{
+  margin: 0;
+  color:var(--muted);
+}
+
+.goal {
+  margin-top:0;
+  display:flex;
+  align-items:center;
+  gap:0.5rem;
+}
+
+.goal-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* About ------------------------------------------------------------------- */
+
+.about-btn{
+  background-color:#8a2be2;
+  color:#dfeee4;
+  padding:0.5rem 0.6rem;
+  border-radius: 100px 30px;
+  border:solid #AD33FF;
+
+  
 }
 
 /* Footer ------------------------------------------------------------------ */

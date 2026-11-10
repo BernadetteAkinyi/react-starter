@@ -4,7 +4,7 @@
  * Week 1: this is a presentational component. It knows how to *look*, not how
  * to change anything. Week 2 will pass in onToggle and onDelete callbacks.
  */
-
+const capitalize =(str) => str.charAt(0).toUpperCase() + str.slice(1);
 
 export default function TaskItem({ task }) {
   return (
@@ -23,7 +23,7 @@ export default function TaskItem({ task }) {
         <p className="task-title">{task.title}</p>
         <p className="task-meta">
           <span className={`priority priority-${task.priority}`}>
-            {task.priority}
+            {capitalize(task.priority)}
           </span>
           <span aria-hidden="true">·</span>
           <span>{task.due}</span>

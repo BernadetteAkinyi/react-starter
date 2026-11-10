@@ -3,6 +3,9 @@ import TaskList from './components/TaskList.jsx'
 import { seedTasks } from './data/seedTasks.js'
 import Greetings from './components/Greetings.jsx'
 import Stats from './components/Stats.jsx'
+import Footer from './components/Footer.jsx'
+import ProfileCard from './components/ProfileCard.jsx'
+import About from './components/About.jsx'
 
 /**
  * Week 1 starter.
@@ -20,10 +23,20 @@ export default function App() {
     <div className="app">
       <Header />
 
+      <div className="profile-layout">
+          
       <Greetings name="Amara" role="Frontend learner"/>
+      <ProfileCard  
+        initials="A" 
+        name="Amara" 
+        role="Frontend learner" 
+        goal="Creative and reliable Web developer" 
+      >
 
-
-      
+        <span className="pill">Open to internships</span>
+      </ProfileCard>
+      </div>
+ 
 
       <main className="main" id="tasks">
         <section className="hero">
@@ -61,13 +74,11 @@ export default function App() {
             code and make it yours.
           </p>
         </section>
-      </main>
 
-      <footer className="footer" id="about">
-        
-        <p>Built while learning React. One project, ten weeks.</p>
-        <p className="footer-meta">React From Zero to Projects</p>
-      </footer>
+        <About />
+      </main>
+      
+      <Footer year={new Date().getFullYear()} />
     </div>
   )
 }

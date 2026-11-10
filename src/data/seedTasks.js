@@ -41,5 +41,23 @@ export const seedTasks = [
     priority:'high',
     due:'December',
 
+  },
+
+  {
+    id: 'task-6',
+    title: 'Do forum audits',
+    completed: false,
+    priority: 'high',
+    due: 'Wednesday',
+
+  },
+
+  {
+    id: 'task-7',
+    title: 'Be happy',
+    completed: 'true',
+    priority: 'high',
+    due: 'Today',
+
   }
 ]
