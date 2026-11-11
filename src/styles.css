@@ -477,14 +477,32 @@ button:disabled {
 
 /* About ------------------------------------------------------------------- */
 
+.about-container {
+  border:solid 1px var(--paper-deep);
+  border-radius:20px;
+  padding:0.9rem 0.6rem;
+  background-color: var(--card)
+}
+
+.about-details p {
+  color:#6f675c;
+}
 .about-btn{
   background-color:#8a2be2;
   color:#dfeee4;
   padding:0.5rem 0.6rem;
   border-radius: 100px 30px;
   border:solid #AD33FF;
+ 
+}
 
-  
+.about-btn :hover {
+  background-color:#AD33FF;
+  transition: ease all 0.3s
+}
+
+.about-btn :active {
+  background-color:#2b0247;
 }
 
 /* Footer ------------------------------------------------------------------ */
